@@ -1,92 +1,111 @@
 body {
   background-color: white
   color: #777777;
-margin: 30;
-padding: 30
-Font-family: "Georgia", "Times", "Times New Roman", serif;
-
-
+  margin: 30;
+  padding: 30
+  Font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 
-.header_container{
-background: #ffffff;
-padding-top: 20px;
-border-style: solid;
-border-color: #cccccc;
-border-width: 0px 0px 1px 0px;
-overflow: auto;
+.index_header_container{
+  background: #ffffff;
+  font-family: 'arial', 'helvetica Neue', Helvetica, sans-serif;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 0px 0px 1px 0px;
+  overflow: auto;
 }
-
-.links{
+.my_name{
+  margin-bottom: 0px;
+}
+.index_large-container{
+  background: #ffffff;
+}
+.links_to_pages{
   float: right;
   font-family: 'arial', 'helvetica Neue', Helvetica, sans-serif;
-  
+  color: #777777;
+  margin-bottom: 30px;
+  margin-right: 150px;
 }
-.connect{
+.index_header-container{
+  background: #ffffff;
+}
+
+.connect_with_my_links{
   float: right;
   font-family: 'arial', 'helvetica Neue', Helvetica, sans-serif;
-  
+ }
+ .my_pages-container{
+  float: right;
+  margin-right: 150;
+ }
+h1 {
+  margin-top: 75px;
+  margin-bottom: 0px;
+  margin-right: 75px;
+  margin-left: 60px;
+  line-height: 70px;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  background-color: #4aaaa5;
+  display: inline;
+  padding: 20px;
 }
-    /* h1 heading tags */
-    h1 {
-      /* Put a 15-pixel margin at the top of all h2 headings. */
-      margin-top: 15px;
-      margin-bottom: 15px;
-      line-height: 70px;
-      font-size: 25px;
-      text-align: left;
-      color: white;
-      background-color: #4aaaa5;
-      display: inline;
-      padding: 40px;
+.link_to_my_social_pages{
+  background-color: #ffffff;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+   
+h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  line-height: 70px;
+  font-size: 25px;
+  text-align: left;
+  color: #4aaaa5;
+}
+    
+h3 {
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: #4aaaa5
+}
 
-    }
-    /* h2 heading tags */
-    h2 {
-      /* Put a 15-pixel margin at the top of all h2 headings. */
-      margin-top: 15px;
-      margin-bottom: 15px;
-      line-height: 70px;
-      font-size: 25px;
-      text-align: left;
-      color: #4aaaa5;
-    }
-    /* h3 heading tags */
+.index_about_me_container{
+  padding-left: 30px;
+  background-color: #e8e8e8;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+}
 
-    h3 {
-      margin-top: 15px;
-      font-size: 20px;
-      text-align: center;
-      color: #4aaaa5
-
-    }
-
-
-    {
-      #about-me,
-       {
-        float: right;
-        padding-left: 30px;
-      }
-
-      }
-    }
-    /* All img tags */
-
-    img {
-      /*
-				Center a block element in the middle of its enclosing tag.
-				When you use the "auto" rule on both left and right margins,
-				your browser will do the math necessary to center a block element.
-				*/
-      margin-left: auto;
+.about_me_img{
+ margin-left: auto;
       margin-right: auto;
       /* Block display (more on this later) */
-      display: block;
-    }
-    /* All p tags */
+      display: block; 
 
-    p {
+}
+.bio-image {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+     p {
       text-align: left;
       font-size: 20px;
       /* Bold the text. */
@@ -106,12 +125,3 @@ overflow: auto;
       list-style-position: inside;
     }
 
-
-    }
-   {
-   #my-name,
-   {float: right; 60px;
-   }
-
-
-    }
