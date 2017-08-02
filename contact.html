@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Contacct</title>
+  <!-- Referencing my style sheet-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<form action="contact.php" method="POST">
+  <fieldset>
+    <legend>Mike Croft</legend>
+    <p style="margin-left:70px;">
+      <label><strong>Name:</strong></label><br />
+      <input type="text" name="name" value="" />
+    </p>
+    <p style="margin-left:70px;">
+      <label><strong>E-mail:</strong></label><br />
+      <input type="text" name="email" value="" />
+    </p>
+    <p style="margin-left:70px;">
+      <label><strong>Message:</strong></label><br />
+      <input type="text" name="subject" value="" />
+    </p><br />
+  </fieldset>
+  <fieldset>
+    <p style="margin-left:70px;">
+      <label><strong>Message:</strong></label><br />
+      <textarea name="comments" rows="7" cols="50"></textarea>
+    </p>
+    <p style="margin-left:70px;">
+      <input class="button" name="submit" type="submit" value="Send" />
+    </p>
+  </fieldset>
+</form>
+
+</body>
+
+</html>
