@@ -1,32 +1,37 @@
-!-- Portfolio page for my Basic-Portfolio-->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-  <title>My Portfolio</title>
-  <!-- Referencing my CSS style sheet-->
+  <title>About Me</title>
+
+<!-- Referencing my style sheet-->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+ <link rel="stylesheet" type="text/css" href="assets/css/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
-  <div class="portfolio_header_container">
-    <div class="my_name">
-      <h1>Mike Croft</h1>
-    </div>
-    <!-- Links to my other pages on the header-->
+<!--Making the header links for my page-->
+  <div class="index_header_container">
+      <div class="my_name">
+        <h1>Mike Croft</h1>
+      </div>
+<!-- Links to my other pages on the header-->
       <div class="links_to_pages">
          <a href="index.html">about me</a>
          <a href="portfolio.html">portfolio</a>
          <a href="contact.html">contact</a>
       </div>
   </div>
-  <!--Making the links for my social pages-->
-      <div class="link_to_my_social_pages-container">
-        <h3>Connect with me</h3>
-            <div class="my_pages-container">
-                <a href="https://github.com//" target="_blank">
-                  <img class="github" src ="assets/images/github.png" alt ="Github" height="50" width ="50">
+<!--Making the large container for my page-->
+  <div class="index_large-container">
+<!--Making the links for my social pages--> 
+      <h3>Connect with me</h3>
+      <div id="link_to_my_social_pages-container"></div>
+            <div id="my_pages-container">
+                <a href="https://github.com/mikcro" target="_blank">
+                  <img class="social" src="images/social github.png" alt ="Github" height="50" width ="50">
                  </a>
                  <a href="https://www.linkedin.com/in/mike-croft-391b3528/" target="_blank">
                   <img class="linkedin" src ="assets/images/if_square-linkedin_317725.png" alt ="Linkedin" height="50" width ="50">
@@ -57,7 +62,7 @@
       </div>
       <div class="gallery5">
         <img class=bio-image src=https://github.com/mikcro/Basic_Portfolio/blob/master/Assets/images/DSC_4974.jpg?raw=true alt="Kayla" height="175" width="300">
-        <h4>Rock Paper Scissors</h4>
+      
       </div>
     </div>
   </div>
@@ -78,6 +83,10 @@ Right content. Add your images or sidebar text to this side.
 </div>
 
 <div class="clear-floated"></div>
+<div class="index_footer">
+   <p class= "index_third_par"> Copyright 2017 Mike Croft
+    </p>
+  </div>
 </body>
 
 </html>

@@ -153,6 +153,11 @@ p.index_third_par{
   font-size: 25px;
   width: 960px;
 
+.portfolio_container{
+background-color: #e6e6e6;
+  height: 620px;
+  width: 960px;
+}
 
 
 } 
